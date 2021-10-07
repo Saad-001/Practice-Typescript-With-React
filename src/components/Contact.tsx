@@ -6,7 +6,6 @@ interface IProps {
     name : string,
     email? : string,
     handleRemove : (name: string) => void
-}
 
 const Contact = ({name, email = "N/A", handleRemove} : IProps) => {
 
